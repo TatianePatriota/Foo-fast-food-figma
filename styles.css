@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF9F0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+   display: flex;
+}
+
+.nav {
+    width: 915px;
+}
+
+.nav-ul li {
+    display: inline;
+    color: #000000;
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+}
+
+.title-2 {
+    color: #FF7E00;
+    font-size: 125px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+.title-3 {
+    color: #2F2F2F;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.title-4 {
+    color: #2F2F2F;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+span {
+   font-weight: 300;
+   line-height: 25px;
+   color: #909090;
+}
+
+.text-1 {
+    color: #909090;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.image-main {
+    background-image: url(./img/fast-food.png);
+    width: 750px;
+    height: 712px;
+}
+
+.button-black {
+    background-color: #2F2F2F;
+    color: #F4ECE1;
+    padding: 25px 40px 25px 40px;
+    border-radius: 80px;
+}
