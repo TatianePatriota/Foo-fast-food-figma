@@ -11,17 +11,34 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    display: flex;
+    align-items: baseline;
+    margin-left: 85px;
+    margin-top: 46px;
+}
+
+.titulo-logo {
+    margin-left: 5px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
 .navigation {
    display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .nav {
-    width: 915px;
+    margin-top: 40px;
 }
 
 .nav-ul li {
     display: inline;
     color: #000000;
+    padding-left: 50px;
 }
 
 li a {
@@ -29,34 +46,60 @@ li a {
     text-decoration: none;
 }
 
-.layout {
+.content-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 90px;
+    top: 240px;
+}
+
+.input-search {
+    width: 315px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    border-radius: 30px;  
+    margin-top: 40px;
+    padding-left: 30px;
+    box-shadow: 0px 12px 40px -16px #00000001;
+    background: #f0fff901;
+    background-image: url(./icons/lupa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.title-main {
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .title-2 {
     color: #FF7E00;
     font-size: 125px;
     font-weight: 700;
-    line-height: 120px;
+    line-height: 120px;  
+    padding-right: 17px;
 }
 
 .title-3 {
     color: #2F2F2F;
     font-size: 52px;
     font-weight: 700;
+    line-height: 50px;
+    width: 330px;
 }
 
-.title-4 {
-    color: #2F2F2F;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 25px;
-}
-span {
-   font-weight: 300;
-   line-height: 25px;
-   color: #909090;
+.image-arrow {
+    background-image: url(./icons/Group.png);
+    background-size: contain;
+    width: 140px;
+    height: 175px;
+    position: absolute;
+    left: 490px;
 }
 
 .text-1 {
@@ -64,17 +107,62 @@ span {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    width: 565px;
+    margin-bottom: 44px;
 }
 
 .image-main {
     background-image: url(./img/fast-food.png);
     width: 750px;
     height: 712px;
+    position: absolute;
+    top: 140px;
+    left: 660px;
+}
+
+.play-video {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
 }
 
 .button-black {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
     background-color: #2F2F2F;
     color: #F4ECE1;
+    border: none;
     padding: 25px 40px 25px 40px;
     border-radius: 80px;
+}
+
+.video {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.title-4 {
+    color: #2F2F2F;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-top: 10px;
+    width: 200px;
+}
+
+.span-star {
+    color: #909090;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 780px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
 }
