@@ -55,20 +55,35 @@ li a {
 }
 
 .input-search {
-    width: 315px;
     height: 60px;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 20px;
+    width: 240px;
+    padding: 20px 85px 20px 70px;
     border: none;
-    border-radius: 30px;  
+    border-radius: 30px 0 0 30px;  
     margin-top: 40px;
-    padding-left: 30px;
     box-shadow: 0px 12px 40px -16px #00000001;
     background: #f0fff901;
     background-image: url(./icons/lupa.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 30px;
+  
+}
+
+.button-input {
+    height: 60px;
+    width: 40px;
+    padding: 20px 30px 20px 17px;
+    border: none;
+    border-left: 1px solid rgba(148, 140, 140, 0.31);
+    border-radius: 0 30px 30px 4px;
+    box-shadow: 0px 12px 40px -16px #00000001;
+    margin-top: 40px;
+    background: #f0fff901;
+    border-left: 1px solid #909090;
+    position: absolute;
+    background-image: url(./icons/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .title-main {
@@ -94,12 +109,13 @@ li a {
 }
 
 .image-arrow {
-    background-image: url(./icons/Group.png);
+    background-image: url(./icons/arrow.png);
     background-size: contain;
     width: 140px;
     height: 175px;
     position: absolute;
-    left: 490px;
+    left: 420px;
+    top: -80px;
 }
 
 .text-1 {
@@ -113,6 +129,7 @@ li a {
 
 .image-main {
     background-image: url(./img/fast-food.png);
+    background-repeat: no-repeat;
     width: 750px;
     height: 712px;
     position: absolute;
@@ -137,11 +154,19 @@ li a {
     border-radius: 80px;
 }
 
+.play {
+    background-image: url(./icons/play-video.png);
+    width: 57px;
+    height: 57px;
+    padding-right: 12px;
+}
+
 .video {
     color: #2F2F2F;
     font-size: 20px;
     font-weight: 600;
     line-height: 18px;
+    padding-left: 12px;
 }
 
 .title-4 {
@@ -165,4 +190,28 @@ li a {
         flex-direction: column;
         align-items: center;
     }
+
+   .content-text {
+       margin-top: 100px;
+   }
+
+   .title-2 {
+       font-size: 80px;
+   }
+
+   .title-3 {
+       font-size: 50px;
+   }
+
+   .text-1 {
+       font-size: 15px;
+   }
+
+   .image-main {
+    top: 900px;
+    left: 100px;
+    width: 500px;
+    height: 400px;
+    background-size: contain;
+   }
 }
